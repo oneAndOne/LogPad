@@ -1,6 +1,6 @@
 //
 //  LogPadCenterView.h
-//  XJKHealth
+//  WW
 //
 //  Created by wangwei on 2019/4/22.
 //  Copyright © 2019 WW. All rights reserved.
@@ -13,10 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LogPadCenterView : UIView
 
 @property (nonatomic, assign) BOOL colorSwitch;
-@property (nonatomic, assign) NSUInteger type;
-
--(void)startMonitorSystemLog;
--(void)removeMonitor;
 
 @end
 
